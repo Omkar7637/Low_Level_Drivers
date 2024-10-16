@@ -1,0 +1,3 @@
+../Src/iwdg.c:10:6:IWDGInit	3
+../Src/iwdg.c:36:6:IWDGRefresh	1
+../Src/iwdg.c:41:5:IsIWDGReset	1

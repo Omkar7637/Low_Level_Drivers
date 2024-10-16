@@ -1,0 +1,3 @@
+../Inc/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Src/dma.c:10:6:Dma_Init_M2M	24	static
+../Src/dma.c:55:6:DMA2_Stream0_IRQHandler	4	static

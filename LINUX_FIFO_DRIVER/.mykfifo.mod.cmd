@@ -1,0 +1,1 @@
+savedcmd_/home/sunbeam/march24/ELDD/demos/demo14/mykfifo.mod := printf '%s\n'   mykfifo.o | awk '!x[$$0]++ { print("/home/sunbeam/march24/ELDD/demos/demo14/"$$0) }' > /home/sunbeam/march24/ELDD/demos/demo14/mykfifo.mod

@@ -1,0 +1,1 @@
+savedcmd_/home/sunbeam/march24/ELDD/demos/demo14/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/sunbeam/march24/ELDD/demos/demo14/Module.symvers -T /home/sunbeam/march24/ELDD/demos/demo14/modules.order -i Module.symvers -e 

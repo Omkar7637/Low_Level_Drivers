@@ -1,0 +1,39 @@
+
+##Laptop/PC -- Kernel compilation steps (on Ubuntu)
+
+Install all kernel compilation tools:
+	> sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+	> sudo apt-get install dwarves
+	> sudo apt-get install zstd
+1. Download kernel 6.1.10 from kernel.org.
+2. Extract the kernel using tar command or using UI.
+3. Copy current kernel config into the dir by name ".config".
+	> make menuconfig
+	> make -j8 bzImage
+	> make -j8 modules
+	> sudo make modules_install
+	> sudo make install
+------------------------------------------------------------------------------------------------
+# Manually uninstall the kernel:
+	> sudo rm -rf /lib/modules/5.10.84-desd
+	> sudo rm -rf /boot/config-5.10.84-desd
+	> sudo rm -rf /boot/initrd.img-5.10.84-desd
+	> sudo rm -rf /boot/vmlinuz-5.10.84-desd
+	> sudo rm -rf /boot/System.map-5.10.84-desd
+# Update the grub:
+	> sudo update-grub
+	> reboot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
